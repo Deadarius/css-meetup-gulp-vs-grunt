@@ -1,0 +1,9 @@
+@import 'colors';
+@import 'vars';
+
+footer {
+  background-color: $primary-0;
+  color: $lighttext;
+  height: $footer-height;
+  text-align: center;
+}

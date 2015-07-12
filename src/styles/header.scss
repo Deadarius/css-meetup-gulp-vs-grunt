@@ -1,0 +1,19 @@
+@import 'colors';
+@import 'vars';
+
+header div {
+  height: $header-height;
+  text-align: center;
+
+  &.very {
+    background-color: $primary-0;
+  }
+
+  &.beautiful {
+    background-color: $primary-1;
+  }
+
+  &.header {
+    background-color: $primary-2;
+  }
+}
